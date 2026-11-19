@@ -1,0 +1,31 @@
+{
+  "modelo": "MobileNetV2",
+  "clave": "mobilenetv2",
+  "tiempo_entrenamiento_s": 64.5,
+  "epocas_ejecutadas": 15,
+  "mejor_epoca": 15,
+  "val_accuracy_mejor_epoca": 1.0,
+  "val_loss_mejor_epoca": 0.0005991661455482244,
+  "parametros": {
+    "totales": 2263108,
+    "entrenables": 5124,
+    "no_entrenables": 2257984
+  },
+  "hiperparametros": {
+    "epocas_max": 15,
+    "batch_size": 32,
+    "optimizador": "Adam",
+    "learning_rate": 0.001,
+    "perdida": "sparse_categorical_crossentropy",
+    "paciencia": 3,
+    "semilla": 42,
+    "margen_train": false
+  },
+  "entorno": {
+    "gpu": [
+      "Tesla T4"
+    ],
+    "tensorflow": "2.21.0",
+    "fecha": "2026-11-18T16:19:44"
+  }
+}
